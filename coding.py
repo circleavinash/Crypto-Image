@@ -1,7 +1,5 @@
 import numpy as np
 import cv2
-import sys
-from matplotlib import pyplot as plt
 import textwrap
 import argparse
 
@@ -77,7 +75,6 @@ if __name__ == "__main__":
 	parser.add_argument("-t", "--text", nargs="+")
 	args = parser.parse_args()
 
-	inp = sys.argv
 	img = None
 	text = None
 	if args.action == "encode":
