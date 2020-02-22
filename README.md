@@ -6,6 +6,11 @@ Includes two functions:
   
 CLI:
 
-    $python3 encode <image-file> <Message>
+    $python3 --action encode --image <path to image> --text <text to hide>
+    (or)
+    $python -a encode -i <path to image> -t <text to hide>
   
-    $python3 decode <image-file>
+  
+    $python3 --action decode -- image <path to encoded image>
+    (or)
+    #python -a decode -i <path to encoded image>
